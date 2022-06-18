@@ -129,7 +129,6 @@ for i=k
 end
 
 %image_maker
-
 A_cor=A;
 
 for i=2:k-1
@@ -158,7 +157,6 @@ for i=1:k
         HDR(i,j,:)=All(i,j,:,flo)*abs(cei-temp)+All(i,j,:,cei)*abs(temp-flo); %most info image maker
     end
 end
-
 %image_lightining
 
 Im_enlight=double(HDR); %histogram normaliation
